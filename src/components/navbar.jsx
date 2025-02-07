@@ -76,7 +76,7 @@ export default function Navbar(props) {
               Menu
             </Link>
             <Link
-              href="#"
+              href="#Reservations"
               alt="Reservations and Booking"
               className="relative max-sm:p-[2px] md:p-[6px] text-white"
               onClick={() => {

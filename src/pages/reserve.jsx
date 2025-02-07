@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Reservation() {
   return (
-    <div className="h-screen mt-[10rem]">
+    <div className="h-screen mt-[10rem]" id="Reservations">
       <h2 className="text-4xl font-pf font-semibold text-center my-10">
         Reservations
       </h2>
