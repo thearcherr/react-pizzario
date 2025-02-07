@@ -2,20 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+    font-family: "Raleway Dots";
+    src: url("/fonts/ralewaydots.ttf");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+    font-family: "Anton";
+    src: url("/fonts/anton.ttf");
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: "Yellow Tail";
+    src: url("/fonts/yellowtail.ttf");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/fonts/playfair.ttf");
+}
+
+.font-rd {
+    font-family: "Raleway Dots", sans-serif;
+    font-weight: 800;
+}
+
+.font-anton {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 0.05in;
+}
+
+.font-yt {
+    font-family: "Yellow Tail", sans-serif;
+    letter-spacing: 0.036in;
+}
+
+.font-pf {
+    font-family: "Playfair Display", sans-serif;
+}
+
+::selection {
+    @apply bg-amber-500 text-black font-bold
 }
