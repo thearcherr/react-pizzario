@@ -12,8 +12,8 @@ export default function Reservation() {
             <h2 className="text-5xl mb-10 font-pf">Visit Us</h2>
             <ul className="font-thin">
               <li>
-                <strong>📍 Address:</strong> Via del Gusto, 27, 80134 Napoli, Italy
-                🇮🇹
+                <strong>📍 Address:</strong> Via del Gusto, 27, 80134 Napoli,
+                Italy 🇮🇹
               </li>
               <li>
                 <strong>⏰ Timings:</strong> 8AM - 9PM
@@ -22,8 +22,10 @@ export default function Reservation() {
                 <strong>📧 Email:</strong> reservations@pizzario.vercel.app
               </li>
             </ul>
-                      <h3 className="text-2xl font-bold my-4">OR</h3>
-                      <button className="bg-gray-300 text-black p-3 rounded-md max-sm:mb-6">📞 Call Us</button>
+            <h3 className="text-2xl font-bold my-4">OR</h3>
+            <button className="bg-gray-300 text-black p-3 rounded-md max-sm:mb-6">
+              📞 Call Us
+            </button>
           </div>
         </div>
         <div className="col-span-1 max-sm:order-1">
